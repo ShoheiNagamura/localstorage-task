@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    overflow: hidden;
+    font-family: 'Rock Salt', cursive;
+}
+
+body {}
+
+
+/* ヘッダーエリア */
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #2f4f4f;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+
+
+header h1 {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+
+/* メインエリア */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* 表示エリア */
+.display-area {
+    width: 60%;
+    height: 800px;
+    background-color: white;
+}
+
+.display-area-title {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-right: 1px solid;
+}
+
+.display-area-title h2 {
+    font-size: 20px;
+    color: #2f4f4f #2f4f4f;
+    font-weight: bold;
+}
+
+.memo-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* 入力エリア */
+.input-area {
+    width: 40%;
+    height: 800px;
+    background-color: white;
+}
+
+.input-area-title {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.input-area-title h2 {
+    font-size: 20px;
+    color: #2f4f4f;
+    font-weight: bold;
+}
+
+.input-list {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-item p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+select {
+    margin-bottom: 50px;
+}
+
+.form-control {
+    width: 400px;
+    margin-bottom: 60px;
+}
+
+.btn-success {
+    margin-right: 20px;
+}
+
+/* 表示エリア */
+.memo-list {
+    width: 100%;
+    height: 700px;
+}
+
+.memo-items {
+    width: 80%;
+    height: 80%;
+}
+
+.test {}

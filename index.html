@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>メモパッドアプリ</title>
+</head>
+
+<body>
+    <header>
+        <h1>beach list memo</h1>
+    </header>
+
+    <main>
+        <div class="display-area">
+            <div class="display-area-title">
+                <h2>beach_information</h2>
+            </div>
+            <div class="memo-list">
+                <div class="memo-items">
+                    <div class="memo-item">
+                        <ul class="list">
+                            <li>beach info</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="input-area">
+            <div class="input-area-title">
+                <h2>sea_about_</h2>
+            </div>
+            <div class="input-list">
+                <div class="input-item">
+                    <p>beach_name</p>
+                    <input type="text" id="title" placeholder="ビーチ名を入力してください">
+                    <p>Memo</p>
+                    <textarea class="form-control" id="text" rows="3" placeholder="メモを入力してください"></textarea>
+                    <div class="button-group">
+                        <button id="save" type="button" class="btn btn-success">registration</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
