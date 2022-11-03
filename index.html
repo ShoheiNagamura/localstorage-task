@@ -7,19 +7,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <title>メモパッドアプリ</title>
+    <title>DE●TH NOTE</title>
 </head>
 
 <body>
-    <header>
-        <h1>Memo</h1>
-    </header>
+    <div class="cover">
+        <h2>GEEK NOTE</h2>
+    </div>
 
-    <main>
+    <div class="header">
+        <h1>GEEK NOTE</h1>
+        <p class="sub-title">How to use it</p>
+        <img src="./img/1017424_p0_master1200.png" alt="">
+        <button class="open-note">open notebook</button>
+        <div class="detail">
+            <p>・The human whose name is written in this note shall die.</p>
+            <p>・This note will not take effect unless the writer has the
+                person's face in their mind when writinghis/her name.<br> Therefore,
+                people sharing the same namewill not be affected.</p>
+            <p>・If the cause of death is written within 40 seconds of writing the person's name, it will happen.</p>
+            <p>・If the cause of death is not specified, the person will simply die of a heart attack.</p>
+            <p>・After writing the cause of death, details of the death should be written in the next 6 minutes<br> and
+                40seconds.</p>
+            <p>・This noteshall become the property of the human world, once it touches the ground<br> of(arrives in) the
+                human
+                world.
+            </p>
+            <p>・The owner of the note can recognize the image and voice of its original owner, i.e. a god of death.</p>
+            <p>・The human who uses this note can neither go to Heaven nor Hell.</p>
+            <p>・If the time of death is written within 40 seconds after writing the cause of death as a heart<br>
+                attack,thetime of death can be manipulated, and the time can go into effect within 40 seconds after
+                writing the
+                game.</p>
+            <p>・The human
+                who touches the DEATH NOTE can recognize the image and voice of its original<br> owner, a god of death,
+                even
+                if
+                the human is not the owner of the note.</p>
+        </div>
+    </div>
+
+    <div class="main">
         <div class="display-area">
             <div class="display-area-title">
                 <h2>information</h2>
@@ -44,16 +76,16 @@
             <div class="input-list">
                 <div class="input-item">
                     <p>Title</p>
-                    <input type="text" id="title" placeholder="ビーチ名を入力してください">
+                    <input type="text" id="title" placeholder="Please enter a title">
                     <p>Memo</p>
-                    <textarea class="form-control" id="text" rows="3" placeholder="メモを入力してください"></textarea>
+                    <textarea class="form-control" id="text" rows="3" placeholder="Please enter the content"></textarea>
                     <div class="button-group">
                         <button id="save" type="button" class="btn btn-success">registration</button>
                     </div>
                 </div>
             </div>
         </div>
-    </main>
+    </div>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

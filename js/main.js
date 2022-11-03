@@ -1,3 +1,36 @@
+$(function () {
+    setTimeout(function () {
+        $('.cover').fadeOut(8000);
+    });
+});
+
+// $(function () {
+//     setTimeout(function () {
+//         $('.detail').fadeIn(000);
+//     });
+// });
+
+
+$(".open-note").on('click', function () {
+    $(".header").stop(true).animate({ 'width': 'toggle' }, 1500);
+});
+
+// $(".header").fadeOut(5000);
+
+// $(function () {
+//     setTimeout(function () {
+//         $('.header').fadeOut(5000);
+//     });
+// });
+
+// $(".header h1").on("clock", funciton(){
+//     $('.header').fadeOut(5000);
+// });
+
+
+
+
+
 const memo = [];
 
 const hoge = [];
@@ -6,6 +39,8 @@ const hoge = [];
 // saveをクリックするとデータ保存
 $("#save").on('click', function () {
     // フォームから値を受け取りdataオブジェクトに格納
+    alert("Are you sure you want to include it?");
+
     const data = {
         "title": $("#title").val(),
         "text": $("#text").val()
@@ -54,6 +89,8 @@ if (localStorage.getItem("memo")) {
 // データの削除
 $("#clear").on("click", function () {
     localStorage.removeItem("memo");
+    hoge.length = 0; //配列を初期化
+    // hoge = []; //初期化
     $('.y').children().remove();
     $("#title").val("");
     $("#text").val("");
