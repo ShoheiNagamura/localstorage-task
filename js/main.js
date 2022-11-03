@@ -13,8 +13,9 @@ $("#save").on('click', function () {
     }
     memo.push(data); //memo配列に格納
 
-    // for (let i = 0; i < memo.length; i++) {
-    hoge.push("<p>" + memo.at(-1).title + "</p>");
+    hoge.push("<p>" + memo.at(-1).text + "</p>");
+    hoge.push("<li>" + memo.at(-1).title + "</li>");
+
     // hoge配列をリバース
     hoge.reverse();
     console.log(hoge); //cba
@@ -41,11 +42,11 @@ if (localStorage.getItem("memo")) {
         memo.push(data[i]); //abc
     }
 
-    // console.log(memo);
     memo.reverse(); //cba
 
     for (let i = 0; i < memo.length; i++) {
-        hoge.push("<p>" + memo[i].title + "</p>");
+        hoge.push("<li>" + memo[i].title + "</li>");
+        hoge.push("<p>" + memo[i].text + "</p>");
     }//cba
 
 
