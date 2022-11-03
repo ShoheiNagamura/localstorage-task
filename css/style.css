@@ -120,6 +120,7 @@ select {
 
 .btn-success {
     margin-right: 20px;
+    box-shadow: 1px 3px 3px black;
 }
 
 /* 表示エリア */
