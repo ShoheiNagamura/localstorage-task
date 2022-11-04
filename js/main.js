@@ -12,7 +12,12 @@ $(function () {
 
 
 $(".open-note").on('click', function () {
-    $(".header").stop(true).animate({ 'width': 'toggle' }, 1500);
+    $("h1").fadeOut(4000);
+    $(".sub-title").fadeOut(4000);
+    $(".open-note").fadeOut(4000);
+    $(".detail").fadeOut(4000);
+    $(".header img").fadeOut(4000);
+    $(".header").stop(true).animate({ 'width': 'toggle' }, 5000);
 });
 
 // $(".header").fadeOut(5000);
