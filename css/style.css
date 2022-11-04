@@ -9,7 +9,8 @@
 
 @font-face {
     font-family: 'deathnote';
-    src: url('../deathnote.ttf');
+    /* src: url('../deathnote.ttf'); */
+    src: url('https://github.com/ShoheiNagamura/localstorage-task/blob/main/deathnote.ttf?raw=true');
     
 }
 
