@@ -1,14 +1,24 @@
-$(function () {
-    setTimeout(function () {
-        $('.cover').fadeOut(2000);
-    });
-});
+// $(function () {
+//     setTimeout(function () {
+//         $('.cover').fadeOut(20000);
+//     });
+// });
 
 // $(function () {
 //     setTimeout(function () {
 //         $('.detail').fadeIn(000);
 //     });
 // });
+
+// $("#bgm").on("click", function () {
+//     $('.cover').fadeOut(20000);
+// })
+
+
+$('#bgm').click(function () {
+    $("#play-bgm").get(0).play();
+    $('.cover').fadeOut(20000);
+});
 
 
 $(".open-note").on('click', function () {
