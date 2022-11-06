@@ -1,6 +1,6 @@
 $(function () {
     setTimeout(function () {
-        $('.cover').fadeOut(30000);
+        $('.cover').fadeOut(10000);
     });
 });
 
