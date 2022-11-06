@@ -38,11 +38,11 @@ body {
     z-index: 10000;
 }
 
-.cover h2 {
+.cover a {
     font-size: 80px;
     position: absolute;
     top: 35%;
-    left: 35%;
+    left: 25%;
 }
 
 .apple {
