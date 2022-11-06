@@ -9,11 +9,12 @@
 
 @font-face {
     font-family: 'deathnote';
-    src: url(/deathnote.ttf);
+    src: url(../deathnote.ttf);
 }
 
 body {
     font-family: deathnote;
+    font-weight: bold;
 }
 
 
