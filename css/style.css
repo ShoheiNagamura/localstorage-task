@@ -45,6 +45,14 @@ body {
     left: 35%;
 }
 
+.apple {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
 
 .header {
     width: 100%;
