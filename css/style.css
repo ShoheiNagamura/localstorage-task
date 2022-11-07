@@ -9,15 +9,13 @@
 
 @font-face {
     font-family: 'deathnote';
-    src: url(../deathnote.ttf);
+    src: url(https://shoheinagamura.github.io/localstorage-task/deathnote.ttf);
 }
 
 body {
     font-family: deathnote;
     font-weight: bold;
 }
-
-
 
 
 /* ヘッダーエリア */
