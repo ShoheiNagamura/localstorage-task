@@ -17,7 +17,6 @@ body {
     font-weight: bold;
 }
 
-
 /* ヘッダーエリア */
 .cover {
     width: 100%;
@@ -35,7 +34,8 @@ body {
     z-index: 10000;
 }
 
-.cover-title {
+.cover a {
+    display: none;
     font-size: 80px;
     position: absolute;
     top: 35%;
