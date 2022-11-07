@@ -16,8 +16,9 @@
 
 
 $('#bgm').click(function () {
-    $("#play-bgm").get(0).play();
-    $('.cover').fadeOut(20000);
+    // $("#play-bgm").get(0).play();
+    $('.cover').fadeIn(8000);
+    $('.cover').fadeOut(10000);
 });
 
 
@@ -41,10 +42,6 @@ $(".open-note").on('click', function () {
 // $(".header h1").on("clock", funciton(){
 //     $('.header').fadeOut(5000);
 // });
-
-
-
-
 
 const memo = [];
 
